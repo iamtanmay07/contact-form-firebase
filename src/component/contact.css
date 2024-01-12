@@ -1,0 +1,69 @@
+.big-container{
+    display: flex;
+    align-items: center;
+}
+
+.contact-form-container {
+    min-width: 400px;
+    margin: auto auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    /* Center the form vertically and horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  @media (max-width : 780px) {
+    .contact-form-container{
+        min-width: auto;
+
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    } 
+  }
+  
